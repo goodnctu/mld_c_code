@@ -6,8 +6,6 @@
 #include <random>
 #include <chrono>
 #include <algorithm>
-
-
 #include <omp.h>
 
 
