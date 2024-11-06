@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/goodnctu/Library/Mobile Documents/com~apple~CloudDocs/mld_c_code",
+      "program": "/Users/goodnctu/Library/Mobile Documents/com~apple~CloudDocs/mld_c_code/build/Debug/outDebug"
+    }
+  ]
+}

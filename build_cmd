@@ -1,0 +1,5 @@
+#clang++ -std=c++17 main.cpp -O3 -o fsd.o -isysroot $(xcrun --show-sdk-path) -I$(xcrun --show-sdk-path)/usr/include/c++/v1
+
+#clang++ -std=c++17 main.cpp -O3 -Xpreprocessor -fopenmp -o fsd.o -L/opt/homebrew/opt/llvm/lib -lomp
+clang++ -std=c++17 main.cpp -O3 -o fsd.o
+
