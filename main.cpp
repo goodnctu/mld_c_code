@@ -9,23 +9,6 @@
 
 
 #include <omp.h>
-/*
-std::vector<std::complex<double>> dotProduct(const std::vector<std::vector<std::complex<double>>>& R, const std::vector<std::complex<double>>& x) {
-    size_t rows = R.size();
-    std::vector<std::complex<double>> z(rows);
-
-    #pragma omp parallel for
-    for (size_t i = 0; i < rows; ++i) {
-        std::complex<double> total = 0.0;
-        for (size_t j = 0; j < x.size(); ++j) {
-            total += R[i][j] * x[j];
-        }
-        z[i] = total;
-    }
-    return z;
-}
-*/
-
 
 
 std::vector<std::complex<double>> dotProduct(const std::vector<std::vector<std::complex<double>>>& R, const std::vector<std::complex<double>>& x) {
