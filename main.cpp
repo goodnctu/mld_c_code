@@ -6,7 +6,7 @@
 #include <random>
 #include <chrono>
 #include <algorithm>
-#include <omp.h>
+
 
 
 std::vector<std::complex<double>> dotProduct(const std::vector<std::vector<std::complex<double>>>& R, const std::vector<std::complex<double>>& x) {
